@@ -1,0 +1,88 @@
+<!-- SOFT3888 Capstone Project -->
+<!-- CP34 Track Brain - Eye Tracking -->
+<!-- Plugin Pop-up window -->
+
+<!-- css address -->
+<link rel="stylesheet" href="extension/popup.css">
+
+
+<div id="plugin" class="plugin">
+    <!-- The title -->
+    <div id="title" class="text_3:6">
+        Eye Tracking
+    </div>
+
+    <!-- 1st line -->
+    <div id="line1" class="line_line"></div>
+
+    <!-- 5th line -->
+    <div id="line5" class="line_line"></div>
+
+    <!-- 2nd line -->
+    <div id="line2" class="line_line"></div>
+
+    <!-- 3rd line -->
+    <div id="line3" class="line_line"></div>
+
+    <!-- 4th line -->
+    <div id="line4" class="line_line"></div>
+
+
+    <input id="toggleOn" type="checkbox" >ON</input>
+
+    
+    <!-- HeatMap -->
+    <div id="heatmap" class="text_3:17">
+        HeatMap
+        <label class="form-switch">
+            <input type="checkbox">
+            <heat></heat>
+          </label>
+    </div>
+
+    <!-- Rec -->
+    <div id="rec" class="text_3:20">
+        Calibration
+        <div class="container">
+            <input type="checkbox" id="btn"/>
+            <a href="index.html" target="_blank"><button class="button recbtn">Start</button></a>
+            <div class="time">
+            <div class="h_m"></div>
+            <div class="s_ms"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tracking Dots Appearance -->
+    <div id="appearance" class="text_3:27">
+        Display Mode
+        <!-- Surround the select box within a "custom-select" DIV element.
+        Remember to set the width: -->
+        <div class="custom-select">
+            <select>
+            <option value="0">Bubbles</option>
+            <option value="1">Red dots</option>
+            <option value="2">Yellow dots</option>
+            <option value="3">Scope</option>
+            </select>
+        </div>
+    </div>
+
+    <!-- Gear icon-->
+    <div id="gear" class="rectangle_settings"></div>
+
+    <!-- Logo -->
+    <div id="logo" class="rectangle_icon_og"></div>
+
+    <!-- Histogram -->
+    <div id="histogram" class="rectangle_3500bed69c"></div>
+
+</div>
+
+<!-- <script src="dependencies/clmtrackr.js"></script>
+<script src="scripts/data.js"></script>
+<script src="scripts/pointer.js"></script>
+<script src="scripts/tracker.js"></script>
+<script src="scripts/cursor.js"></script>
+<script src="scripts/model.js"></script> -->
+<script type="text/javascript" src="scripts/popup.js"></script>

@@ -1,0 +1,123 @@
+#heatMap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  pointer-events: none;
+}
+
+#eyes {
+  position: absolute;
+  top: 0;
+  left: 600px;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+
+#video{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+#overlay{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+#geyes {
+  position: absolute;
+  top: 100px;
+  left: 600px;
+}
+
+#interface {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 200px;
+  background-color: powderblue;
+  padding: 0.5em;
+}
+
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  width: 190px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: 'Roboto', sans-serif;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+#video, #overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#eyes {
+  position: absolute;
+  top: 0;
+  left: 400px;
+}
+
+#pointer {
+  background-color: rgba(236, 18, 18, 0.89);
+  position: absolute;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  transition: all 0.1s ease;
+  box-shadow: 0 0 20px 10px white;
+  border: 2px solid rgba(0,0,0,0.5);
+  
+}
+.square {
+  height: 125px;
+  width: 125px;
+  position:absolute;
+  top: 100px;
+  right: 500px;
+  background-color: pink;
+}
+.triangle-up {
+	width: 0;
+	height: 0;
+	position:absolute;
+	bottom: 50px;
+	left: 200px;
+	border-left: 75px solid transparent;
+	border-right: 75px solid transparent;
+	border-bottom: 150px solid orange;
+	
+}
+.circle {
+  height: 125px;
+  width: 125px;
+  position:absolute;
+  bottom: 200px;
+  left: 800px;
+  background-color: green;
+  border-radius: 50%;
+}
