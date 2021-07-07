@@ -1,6 +1,8 @@
 # Eye Tracking Chrome Extension
 Chrome Extension that tracks your gaze via Machine Learning and visualises your gaze using a Heatmap. A group project for the University of Sydne by: Youki Iijima, Ethan Shi, Chris Pidd and Crystal Hu
 
+See demo video at https://www.youtube.com/watch?v=fhPjselAvh8
+
 ## Installation
 1. Open your chrome browser
 2. Go Preference -> Extension (on the left sidebar)
